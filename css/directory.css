@@ -1,0 +1,377 @@
+@font-face {
+  font-family: "FontAwesome";
+  src: url("fonts/fontawesome-webfont.eot");
+  src: url("fonts/fontawesome-webfont.svg") format('svg'),
+       url("fonts/fontawesome-webfont.woff") format('woff'),
+       url("fonts/fontawesome-webfont.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;     
+}
+
+.fa {
+  font-family: "FontAwesome" !important;
+}
+
+/* =========== */
+/* = General = */
+/* =========== */
+
+i.fa-facebook {
+  font-size: 20px;
+}
+a.facebook-icon {
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.directory-entry {
+  background: #fff;
+  border: 1px solid #eee;
+  margin: 1%;
+  float: left;
+  padding: 15px;
+  -webkit-transition: all 0.2s ease-in-out; 
+  -moz-transition: all 0.2s ease-in-out; 
+  -o-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
+}
+
+.directory-entry:hover {
+  background: #eee;
+  border: 1px solid #ddd;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.2s ease-in-out; 
+  -moz-transition: all 0.2s ease-in-out; 
+  -o-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
+}
+
+.directory-entry .picture img {
+  width: 100%;
+}
+
+.directory-entry .info-wrapper .name {
+  font-size: 18px;
+}
+
+.directory-entry .info-wrapper .name a {
+  color: #0f75bc;
+  font-size: 18px;
+  -webkit-transition: all 0.2s ease-in-out; 
+  -moz-transition: all 0.2s ease-in-out; 
+  -o-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
+}
+
+.directory-entry .info-wrapper .name a:hover {
+  color: #2b8cd0;
+  -webkit-transition: all 0.2s ease-in-out; 
+  -moz-transition: all 0.2s ease-in-out; 
+  -o-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
+}
+
+.directory-entry .info-wrapper .company {
+  font-style: italic;
+}
+
+.directory-entry .info-wrapper .title {
+  font-weight: bold;
+}
+
+.directory-entry .link a {
+  color: #fff;
+  background: #0f75bc;
+  padding: 8px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out; 
+  -moz-transition: all 0.2s ease-in-out; 
+  -o-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
+}
+
+.directory-entry .link a:hover {
+  background: #2b8cd0;
+  -webkit-transition: all 0.2s ease-in-out; 
+  -moz-transition: all 0.2s ease-in-out; 
+  -o-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
+}
+
+.directory-entry .social a {
+  margin: 5px 3px -5px 0;
+}
+
+#secondary-container,
+#header-container,
+#preface-container,
+#content-container,
+#postscript-container,
+#footer-container,
+#footer-information-container,
+#attribution-container,
+#second-container,
+#third-container,
+#fourth-container,
+#fifth-container,
+#sixth-container {
+	margin: 0;
+}
+
+/* =============== */
+/* = Social Ions = */
+/* =============== */
+
+.social i.fa {
+  font-size: 20px;
+  font-size: 20px;
+  height: 30px;
+  line-height: 32px;
+  width: 30px;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-in-out; 
+  -moz-transition: all 0.2s ease-in-out; 
+  -o-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
+}
+
+.social i.fa:hover {
+  -webkit-transition: all 0.2s ease-in-out; 
+  -moz-transition: all 0.2s ease-in-out; 
+  -o-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
+}
+
+i.fa-facebook {
+  color: #3A5795;
+  background: transparent;
+}
+
+i.fa-facebook:hover {
+  color: #ffffff;
+  background: #3A5795;
+}
+
+i.fa-twitter {
+  color: #59ADEB;
+  background: transparent;
+}
+
+i.fa-twitter:hover {
+  color: #ffffff;
+  background: #59ADEB;
+}
+
+i.fa-linkedin {
+  color: #007AB9;
+  background: transparent;
+}
+
+i.fa-linkedin:hover {
+  color: #ffffff;
+  background: #007AB9;
+}
+
+i.fa-google-plus {
+  color: #DB4E40;
+  background: transparent;
+}
+
+i.fa-google-plus:hover {
+  color: #ffffff;
+  background: #DB4E40;
+}
+
+/* ================== */
+/* = Directory Grid = */
+/* ================== */
+
+.directory-entry.grid {
+  width: 100%;
+}
+
+.directory-entry.grid .info-wrapper div {
+  margin: 5px 0;
+}
+
+.directory-entry.grid .link {
+  margin-top: 10px;
+}
+
+/* =================== */
+/* = Directory Cards = */
+/* =================== */
+
+.directory-entry.cards {
+  width: 100%;
+}
+
+.directory-entry.cards .picture {
+  width: 40%;
+  float: left;
+}
+
+.directory-entry.cards .info-wrapper {
+  width: 60%;
+  float: left;
+  padding-left: 10px;
+}
+
+.directory-entry.cards .info-wrapper div {
+  margin-bottom: 5px;
+}
+
+.directory-entry.cards .info-wrapper .location {
+  border-top: 1px solid #eee;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+.directory-entry.cards:hover .info-wrapper .location {
+  border-top: 1px solid #ddd;
+}
+
+.directory-entry.cards .link {
+  margin-top: 10px;
+}
+
+/* ================== */
+/* = Directory List = */
+/* ================== */
+
+.directory-entry.list {
+  width: 100%;
+}
+
+.directory-entry.list .picture {
+  width: 30%;
+  float: left;
+}
+
+.directory-entry.list .info-wrapper {
+  width: 70%;
+  float: left;
+  padding-left: 10px;
+}
+
+.directory-entry.list .info-wrapper div {
+  margin-bottom: 5px;
+}
+
+.directory-entry.list .social-icons {
+  margin-top: 10px;
+}
+
+.directory-entry.list .info-wrapper .bio {
+  margin-top: 10px;
+}
+
+.directory-entry.list .link {
+  margin-top: 10px;
+}
+
+/* =============== */
+/* = Node Styles = */
+/* =============== */
+
+.node-type-directory-entry .page-header.title {
+  display: none;
+}
+
+.node-directory-entry .directory-left .picture,
+.node-directory-entry .directory-left .telephone,
+.node-directory-entry .directory-left .email,
+.node-directory-entry .directory-left .website,
+.node-directory-entry .directory-left .social {
+  clear: both;
+  margin: 5px 0;
+}
+
+.node-directory-entry .directory-left .telephone {
+  padding-top: 10px;
+}
+
+.node-directory-entry .field-type-image {
+  float: left;
+  width: 100%;
+  margin: 0;
+}
+
+.node-directory-entry .field-type-image img {
+  width: 100%;
+}
+
+.node-directory-entry .social .link {
+  margin: 5px 3px -5px 0;
+}
+
+.node-directory-entry .directory-left {
+  margin-bottom: 20px;
+}
+
+.node-directory-entry .directory-right h1 {
+  margin-top: 0;
+}
+
+.node-directory-entry .directory-right .title {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.node-directory-entry .directory-right .company {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* ================= */
+/* = Media Queries = */
+/* ================= */
+
+@media (min-width:768px) {
+  
+  #secondary-container,
+  #header-container,
+  #preface-container,
+  #content-container,
+  #postscript-container,
+  #footer-container,
+  #footer-information-container,
+  #attribution-container,
+  #second-container,
+  #third-container,
+  #fourth-container,
+  #fifth-container,
+  #sixth-container {
+  	margin: auto;
+  }
+  
+  .directory-entry.grid {
+    width: 31%;
+  }
+  
+  .directory-entry.cards {
+    width: 48%;
+  }
+	
+}	
+		
+		
+		
+@media screen and (min-width:992px) {
+  
+  .directory-entry.grid {
+    width: 23%;
+  }
+	
+}
+
+
+
+@media screen and (min-width:1200px) {
+  
+	
+}
