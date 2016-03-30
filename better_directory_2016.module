@@ -1,0 +1,25 @@
+<?php
+/**
+ * @file
+ * Code for the Better Directory 2016 feature.
+ */
+
+include_once 'better_directory_2016.features.inc';
+
+// =====================
+// = Add Node Template =
+// =====================
+
+/**
+ * Implements hook_theme().
+ */
+function product_catalog_theme($existing, $type, $theme, $path) {
+  $theme = array();
+  $theme['node__directory_entry'] = array(
+    'render element' => 'content',
+    'base hook' => 'node',
+    'template' => 'node--directory_entry',
+    'path' => drupal_get_path('module', 'better_directory_2016') . '/templates',
+  );
+  return $theme;
+}
