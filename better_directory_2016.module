@@ -13,7 +13,7 @@ include_once 'better_directory_2016.features.inc';
 /**
  * Implements hook_theme().
  */
-function product_catalog_theme($existing, $type, $theme, $path) {
+function better_directory_2016_theme($existing, $type, $theme, $path) {
   $theme = array();
   $theme['node__directory_entry'] = array(
     'render element' => 'content',
