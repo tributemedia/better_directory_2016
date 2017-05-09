@@ -1,0 +1,15 @@
+<?php
+
+/**
+* @file better_directory_2016.install
+*/
+
+// ==============================
+// = Implements hook_install(). =
+// ==============================
+
+function better_directory_2016_install() {
+  
+  /* Set URL Alias pattern for directory_entry content type. */
+  variable_set('pathauto_node_directory_entry_pattern', 'directory/[node:title]');
+}
