@@ -119,7 +119,10 @@ a.facebook-icon {
 #fourth-container,
 #fifth-container,
 #sixth-container {
-	margin: 0;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 /* =============== */
@@ -346,7 +349,10 @@ i.fa-google-plus:hover {
   #fourth-container,
   #fifth-container,
   #sixth-container {
-  	margin: auto;
+  	margin-top:0px;
+  	margin-bottom:0px;
+  	margin-left:auto;
+  	margin-right:auto;
   }
   
   .directory-entry.grid {
